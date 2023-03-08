@@ -36,6 +36,7 @@
 .i-button {
   width: 6rem;
   height: 2rem;
+  padding: 0!important;
 }
 .i-icons {
   margin-top: 3rem;
