@@ -19,10 +19,15 @@
 .f-icons {
   display: flex;
   gap: 2rem;
+ 
 }
 
 .i-icons a img{
   color: white;
+}
+
+.i-icons{
+  margin-top: 1rem ;
 }
 
 @media screen and (max-width: 480px){
@@ -31,6 +36,12 @@
   }
 }
 .mail-text{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.number-text{
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 1rem;

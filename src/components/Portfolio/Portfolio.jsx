@@ -12,6 +12,8 @@ import Haksan from "../../img/haksan-min.png";
 import Flegri from "../../img/flegri-min.png";
 import Fiorello from "../../img/fiorello.png";
 import feridhacizade from "../../img/qqq.png";
+import zadas from "../../img/zadas-min.png";
+import lookbook from "../../img/lookbook-min.png";
 
 import { themeContext } from "../../Context";
 const Portfolio = () => {
@@ -57,6 +59,12 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={feridhacizade} alt="Ferid Hacizade feridhacizade.com" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={zadas} alt="Ferid Hacizade feridhacizade.com" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={lookbook} alt="Ferid Hacizade feridhacizade.com" />
         </SwiperSlide>
 
       </Swiper>
