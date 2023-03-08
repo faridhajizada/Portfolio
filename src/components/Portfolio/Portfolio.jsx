@@ -2,10 +2,17 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+
+import Flejob from "../../img/flejob.az-min.png";
+import Kidmapa from "../../img/kidmapa-min.png";
+import Merit from "../../img/merit-brand-min.png";
+import Panattasport from "../../img/panattasport-min.png";
+import Megafruit from "../../img/megafruit-min.png";
+import Haksan from "../../img/haksan-min.png";
+import Flegri from "../../img/flegri-min.png";
+import Fiorello from "../../img/fiorello.png";
+import feridhacizade from "../../img/qqq.png";
+
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -13,7 +20,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{color: darkMode?'white': ''}}>My Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -23,18 +30,35 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+   
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={Flejob} alt="Flejob" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={Kidmapa} alt="Kidmapa" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={Merit} alt="Merit" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={Panattasport} alt="Panattasport" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={Megafruit} alt="Megafruit" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Haksan} alt="Haksan" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Flegri} alt="Flegri" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Fiorello} alt="Fiorello" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={feridhacizade} alt="Ferid Hacizade feridhacizade.com" />
+        </SwiperSlide>
+
       </Swiper>
     </div>
   );
